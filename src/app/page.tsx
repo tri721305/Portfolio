@@ -8,7 +8,7 @@ export default function Home() {
         src="/images/gradient.png"
         alt="Gradient"
       />
-      Hello MINHTRI test deployment
+      Hello MINHTRI test deploymentss
     </main>
   );
 }
