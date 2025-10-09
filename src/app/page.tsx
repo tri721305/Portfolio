@@ -8,6 +8,7 @@ export default function Home() {
         src="/images/gradient.png"
         alt="Gradient"
       />
+      Hello
     </main>
   );
 }
