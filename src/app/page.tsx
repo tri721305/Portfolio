@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Scene from "@/components/Scene";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      DANG HOANG MINH TRI Nguyen Si Quan
-    </div>
+    <main>
+      <img
+        className="absolute top-0 right-0 -z-1"
+        src="/images/gradient.png"
+        alt="Gradient"
+      />
+    </main>
   );
 }
