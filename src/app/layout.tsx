@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 import ThemeProvider from "@/context/Theme";
+import Navbar from "@/components/navigation";
 
 const spaceGrotesk = localFont({
   src: "./fonts/SpaceGrotesk.ttf",
@@ -40,6 +41,8 @@ export default function RootLayout({
           disableTransitionOnChange
           // forcedTheme="dark"
         >
+          <Navbar />
+
           {children}
         </ThemeProvider>
       </body>

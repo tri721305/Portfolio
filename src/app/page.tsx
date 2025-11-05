@@ -1,5 +1,5 @@
-import Navbar from "@/components/navigation";
-import Theme from "@/components/navigation/Theme";
+import Hero from "@/components/Hero";
+import HeroV2 from "@/components/HeroV2";
 
 export default function Home() {
   return (
@@ -9,8 +9,11 @@ export default function Home() {
         src="/images/gradient.png"
         alt="Gradient"
       />
-      <Navbar />
       <div className="h-0 w-[40rem] absolute top-[20%] right-[0] shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10"></div>
+      <div className="">
+        {/* <Hero /> */}
+        <HeroV2 />
+      </div>
     </main>
   );
 }
