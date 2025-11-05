@@ -42,7 +42,6 @@ export default function RootLayout({
           // forcedTheme="dark"
         >
           <Navbar />
-
           {children}
         </ThemeProvider>
       </body>

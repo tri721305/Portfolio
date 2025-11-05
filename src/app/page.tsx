@@ -3,7 +3,7 @@ import HeroV2 from "@/components/HeroV2";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen overflow-hidden relative">
+    <main className="w-screen h-screen overflow-auto relative">
       <img
         className="absolute top-0 right-0 -z-1"
         src="/images/gradient.png"

@@ -7,15 +7,15 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 const HeroV2 = () => {
   return (
-    <main className="flex lg:mt-20 flex-col lg:flex-row items-stretch justify-between h-[calc(90vh-6rem)]">
-      <div className="max-w-xl flex gap-4 ml-[5%] lg:ml-0 z-10 mt-[90%] md:mt-[60%] lg:mt-0 relative -left-[20%]">
+    <main className="flex mt-20 flex-col lg:flex-row items-stretch justify-between h-[calc(90vh-6rem)]">
+      <div className="max-w-xl max-sm:pl-[100px] flex gap-4 ml-[5%] lg:ml-0 z-10 mt-[0%] md:mt-[60%] lg:mt-0 relative -left-[20%]">
         {/* Hero V2 */}
-        <div className="inline-block transform rotate-90  ">
+        <div className="inline-block transform lg:rotate-90 max-md:absolute max-md:-right-[30px] ">
           <div className="max-w-2xl w-full">
             <div className="flex flex-col items-center gap-4">
               {/* Title with Separator */}
-              <div className="text-center">
-                <h1 className="text-9xl md:text-8xl lg:text-9xl font-bold tracking-tight text-hero-text animate-fade-in">
+              <div className="text-center max-sm:hidden">
+                <h1 className="text-4xl md:text-8xl  lg:text-9xl font-bold tracking-tight text-hero-text animate-fade-in">
                   Developer
                 </h1>
 
@@ -26,7 +26,7 @@ const HeroV2 = () => {
 
                 <div className="flex-center gap-7">
                   <div className="w-20 h-2 bg-gradient-to-r from-white to-black rounded-md"></div>
-                  <h2 className="!text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight text-hero-text animate-fade-in-delay">
+                  <h2 className="whitespace-nowrap text-5xl md:text-7xl lg:text-7xl font-bold tracking-tight text-hero-text animate-fade-in-delay">
                     Front End
                   </h2>
                   <div className="w-20 h-2 bg-gradient-to-r from-black to-white rounded-lg"></div>
@@ -47,16 +47,16 @@ const HeroV2 = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 flex gap-2 flex-col justify-end ml-[8%] min-h-0">
+      <div className="flex  max-sm:py-[40px]   flex gap-2 flex-col justify-end ml-[8%] max-sm:ml-8   max-sm:min-h-[200px] min-h-0">
         <p className="text-lg font-medium">
           My goal is to write clean, maintainable code that enhances the
           developement process and makes coding enjoyable through structured and
           thoughtful practices.
         </p>
         <Button
-          size={"lg"}
+          //   size={"lg"}
           variant="default"
-          className="font-bold flex items-center w-[140px] text-xl bg-[#FF7000] text-white cursor-pointer hover:bg-[#FF7000]/90"
+          className="font-bold !h-[56px] flex items-center w-[140px] text-xl bg-[#FF7000] text-white cursor-pointer hover:bg-[#FF7000]/90"
           onClick={() => {
             console.log("Portfolio button clickedasd");
           }}
@@ -65,7 +65,7 @@ const HeroV2 = () => {
           <AiFillCaretRight />
         </Button>
       </div>
-      <div className="w-[300px] flex flex-col justify-center items-end px-8 gap-2">
+      <div className="w-[300px] flex max-sm:flex-row w-full max-sm:justify-start flex-col justify-center items-end px-8 gap-2">
         <Button size="icon" className="!background-light800_darkgradient">
           <FaFacebook className="text-blue-500" />
         </Button>
