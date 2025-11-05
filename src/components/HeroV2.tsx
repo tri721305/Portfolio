@@ -58,7 +58,7 @@ const HeroV2 = () => {
           variant="default"
           className="font-bold flex items-center w-[140px] text-xl bg-[#FF7000] text-white cursor-pointer hover:bg-[#FF7000]/90"
           onClick={() => {
-            console.log("Portfolio button clicked");
+            console.log("Portfolio button clickedasd");
           }}
         >
           Portfolio
