@@ -100,7 +100,11 @@
 }
 
 @utility background-light800_dark300 {
-  @apply bg-light-800! dark:bg-dark-300!;
+  @apply bg-light-800! dark:bg-[#4a290f]!;
+}
+
+@utility background-lightorange_darkblue {
+  @apply bg-orange-50! dark:bg-dark-300!;
 }
 
 @utility background-light800_dark200 {

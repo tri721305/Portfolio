@@ -1,5 +1,7 @@
 import Hero from "@/components/Hero";
 import HeroV2 from "@/components/HeroV2";
+import About from "@/components/ui/About";
+import Work from "@/components/Work";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <div className="">
         {/* <Hero /> */}
         <HeroV2 />
+        <About />
+        <Work />
       </div>
     </main>
   );

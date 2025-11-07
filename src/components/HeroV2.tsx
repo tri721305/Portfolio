@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 const HeroV2 = () => {
   return (
-    <main className="flex mt-20 flex-col lg:flex-row items-stretch justify-between h-[calc(90vh-6rem)]">
+    <main className=" flex mt-20 flex-col lg:flex-row items-stretch justify-between h-[calc(96vh-6rem)]">
       <div className="max-w-xl max-sm:pl-[100px] flex gap-4 ml-[5%] lg:ml-0 z-10 mt-[0%] md:mt-[60%] lg:mt-0 relative -left-[20%]">
         {/* Hero V2 */}
         <div className="inline-block transform lg:rotate-90 max-md:absolute max-md:-right-[30px] ">
